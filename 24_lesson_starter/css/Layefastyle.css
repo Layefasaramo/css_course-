@@ -54,6 +54,7 @@ th, td{
     width: 250px;
 
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--FF-HEADINGS);
     letter-spacing: 0.1em;
@@ -69,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
 
 .topheader{
   
@@ -185,6 +187,92 @@ h1, h2, h3, h4, h5, h6 {
         color:gainsboro;
 
     }
+      .hourclass {
+        color: rgba(0, 0, 0, 0.815);
+        margin-bottom: 300px;
+        
+    }
+    .hourheading {
+            color:rgba(0, 128, 0, 0.795);
+            margin: 0.5em;
+            font-weight: lighter;
+           text-align: start;
+    }
+    .hourclass p {
+        margin: 0.5em;
+        font-weight: lighter;
+        text-align: start;
+    }
+    .hourclassd{
+         margin: 0.5em;
     
+        text-align: start;
+
+    }
+    /* || CONTACT */
+
+.contact__h2 {
+    margin: 0;
+}
+
+/* Update form input styles */
+.contact__input {
+    padding: 1rem;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 100%;
+    height: clamp(2rem, 3vh, 2rem);
+    font-size: 1rem;
+}
+
+.contact__textarea {
+    padding: 1rem;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 100%;
+    min-height: clamp(6rem, 12vh, 10rem);
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.contact__fieldset {
+    border: none;
+    margin: 0.5rem;
+    margin-left:0.5rem;
+}
+
+.contact__p {
+    margin: 1.5rem 0; /* Increased spacing between form elements */
+}
+
+/* Make inputs responsive on mobile */
+@media screen and (max-width: 576px) {
+    .contact__input {
+        height: clamp(2.5rem, 4vh, 3.5rem);
+    }
+    
+    .contact__textarea {
+        min-height: clamp(6rem, 12vh, 10rem);
+    }
+}
+.contact__p {
+    margin: 1em 0;
+}
+
+.contact__label {
+    display: block;
+    font-weight: bold;
+}
+
+
+.contact__button {
+    
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: clamp(3rem, 4vh, 3rem);
+    height: clamp(2.3rem, 3vw, 3.5rem);
+}
    
 }
