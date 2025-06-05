@@ -198,6 +198,16 @@ h1, h2, h3, h4, h5, h6 {
             font-weight: lighter;
            text-align: start;
     }
+    .hourclass_about {
+            color: rgba(0, 0, 0, 0.815);
+            margin-bottom: 300px;
+           text-align: start;
+           
+    }
+    .hourclass_about p {
+        margin: 0.5em;
+        text-align: start;
+    }
     .hourclass p {
         margin: 0.5em;
         font-weight: lighter;
@@ -209,6 +219,17 @@ h1, h2, h3, h4, h5, h6 {
         text-align: start;
 
     }
+    .hourclass_about details {
+    margin: 0.5em;
+    text-align: start;
+}
+
+.hourclass_about summary {
+    margin-left: 0.5em;
+    text-align: start;
+  
+}
+
     /* || CONTACT */
 
 .contact__h2 {
@@ -266,13 +287,18 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .contact__button {
-    
     border-radius: 15px;
     background-color: green;
     color: white;
     font-weight: bold;
     width: clamp(3rem, 4vh, 3rem);
     height: clamp(2.3rem, 3vw, 3.5rem);
+    
 }
+.contact__button-group {
+    padding: 0 1rem; 
    
+    
+}
+ 
 }
